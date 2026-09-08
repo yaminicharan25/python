@@ -113,3 +113,36 @@ print("Eligible for loan:", has_card == True or has_cash == True)
 
 is_raining = True
 print("Stay indoors:", not is_raining)
+
+#identity operators
+a = None
+
+print(a is None)
+print(a is not None)  
+
+#bitwise operators
+a = 5  
+b = 3
+
+print(a & b)
+print(a | b)
+print(a ^ b)
+
+#electricity bill calculation
+units = int(input("Enter electricity units : "))
+
+rate = 6
+
+bill = units * rate
+
+print("Electricity Bill Amount: Rs.", bill) 
+
+#travel expense calculation
+travel = float(input("Travel expense): "))
+food = float(input("Food expense): "))
+hotel = float(input("Hotel expense): "))
+
+total_expense = travel + food + hotel
+
+print("Total Travel Expense: Rs.", total)
+
